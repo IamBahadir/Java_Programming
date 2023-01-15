@@ -1,0 +1,74 @@
+-------------------------Multi dimensional------------------------
+Sphere
+
+        surface Area : 4*pi*r*r
+        Volume       : 4/3(pi*r*r*r)
+
+        class needed : pi & radius
+
+Cone
+        base Area    : pi*r*r
+        Volume       : ( pi*r*r*h )/ 3
+
+        class needed : pi & radius & height
+
+Rectangular prism
+
+        surface Area : 2(w*l+h*l+h*w)
+        Volume       : w*h*l
+
+        class needed : width & height & length
+
+Cube
+
+        surface Area : 6*a*a
+        Volume       : a * a * a
+
+        class needed : side
+
+Cylinder
+
+        surface Area : 2*pi*r*h + 2*pi*r*r
+        base area    : pi*r*r
+        Volume       : pi*r*r*h
+
+        class needed : pi & radius & height
+
+-----------------------------------------------------------------
+
+
+-------------------------One dimensional-------------------------
+
+Square
+        Area         : a*a
+        perimeter    : 4*a
+
+        class needed : side
+
+Triangle
+        Area         : ( h*b ) / 2
+        perimeter    : a+b+c
+
+        class needed : height & side1 & side2 & base
+
+rectangular
+        Area         : w*l
+        perimeter    : 2 * ( w*l )
+
+        class needed : width & length
+
+Circle
+        Area         : pi*r*r
+        perimeter    : 2*pi*r
+
+        class needed : pi & radius
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+Abstraction Topics:
+
+            Abstract Method
+            Abstract Class
+            Interface
+
+- Process of hiding implementation details from the user
+- Only the functionality will be provided to the user
+- Focusing on the essential qualities of something rather than one specific example
+- User will have the information what the object does instead of how it does
+
+
+            Abstract Method :
+            - A method that does not have body, only signature
+            - A method that's meant to be overridden
+            - Abstract keyword is used to create abstract method
+
+            public abstract void calculate();
+
+            * can not be static
+            * can not be final
+            * does not have private access modifier
+            * does not have body
+            * can only be created in an abstract class or in an interface
+
+
+Car Task:
+        abstract Car:
+            make,model,color,year,price..
+            start(); public abstract void start();
+            stop();
+        Honda extends Car:
+            start(): twist the key
+        Audi extends Car:
+            start(): push to start button
+        Tesla extends Car:
+            start(): Say start
+
+Employee task:
+            abstract Person :
+            name, age, gender(final)
+
+            eat();
+            sleep();
+
+            abstract Employee extends Person :
+
+                id(final), jobTitle, salary..
+
+                public abstract work(); // it can not be final and static , does not have any body
+
+                and also abstract method can only be created in an abstract class or in an interface
+
+
+            Tester
+                work(): testing
+
+            Developer
+                work(): developing
+
+            Teacher
+                work(): teaching
+
+            Driver
+                work(): driving
+

@@ -1,0 +1,46 @@
+Java Day45
+Topics OOP Abstraction Continue
+                    Interface
+                    Interface vs Abstract class
+                    extends vs implements
+
+           OOP Polymorphism Intro
+
+package name: day45_Abstraction
+
+remaining topics:
+    polymorphism
+    Collection
+    Map
+    Enum
+    Generics
+    Functional interface
+    Lambda Expressions
+    Stream Method
+
+
+    **************** Regular Class *****************
+    * can have constructors, instances and statics *
+    * can be instantiated                          *
+    * can not have abstract method                 *
+    * can be declared as final                     *
+    ************************************************
+
+    **************** Abstract Class ****************
+    * can have constructors, instances and statics *
+    * can not be instantiated                      *
+    * can have abstract method                     *
+    * can not be declared as final                 *
+    ************************************************
+
+    one of the disadvantages all the methods and variables can be inherited as long as its visible.
+
+    ****************************** Interface *****************************
+    * Variables are static and final by Default                          *
+    * can have static methods, abstract methods and default methods only *
+    * public is the only access modifier and given by default            *
+    * abstract keyword is given by default to the abstract method        *
+    **********************************************************************
+
+
+

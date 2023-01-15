@@ -1,0 +1,36 @@
+Java Day35
+Topic: OOP Encapsulation
+
+warmup tasks:
+
+    1. Create a class named Person:
+        Variables:
+            name, age, gender, language, planet, isHuman, hasNose, numberOfWings, numberOfHead
+
+        Add a constructor to initialize all the fields
+
+        Add a static block to initialize all the statics
+
+        Methods :
+
+        printPlanetName()
+        eat(String food)
+        drink(String drink)
+        toString()
+
+    2. create a class name CybertekStudent
+
+       Variables:
+            name, gender, age, batchNumber, groupNumber, schoolName, fieldOfStudy, programmingLanguage
+
+       Add a constructor to initialize all the fields
+
+       Add a static block to initialize all the statics
+
+       methods:
+
+       attendClass()
+       study()
+       toString()
+
+

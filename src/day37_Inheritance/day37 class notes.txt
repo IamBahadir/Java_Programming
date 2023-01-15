@@ -1,0 +1,21 @@
+Java Day37
+
+Topic:  Super keyword
+        Types Of Inheritance
+
+Pakage name: day37_Inheritance
+
+
+OOP Inheritance : Building relationship between classes (parent and child or sup and sub)
+
+
+
+
+
+        Advantages:
+
+            less codes
+            improves the re-usability
+            clean
+            less memory usage
+            easy to maintain
