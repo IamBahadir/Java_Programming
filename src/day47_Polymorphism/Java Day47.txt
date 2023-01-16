@@ -1,0 +1,70 @@
+
+Definition of the polymorphism ;
+
+           Ability of the object to take on many forms
+
+           When the polymorphism occurs;
+           'in a relation'
+
+
+           Reference type is pareNt class/interface, and object type is child class
+
+           instance --> to check which object stored in the reference type.
+
+Dynamic polymorphism:
+                    Method overriding
+                    One method with multiple implementations
+Static polymorphism:
+                    Multiple methods with same name
+                    each method has one implementation ONLY
+
+
+    Webdriver driver = new FirefoxDriver();
+    driver.takeScreenShot();
+
+    Animal animal = new Tiger(); Reference name is must meaningful (animal)
+
+    Employee employee = new Developer();
+
+
+What is the meaning of the casting:
+
+        Converting one type to another
+
+
+    Type of Casting
+
+    1 Primitive Type casting : must happen between primitives
+
+         -Implicit primitive type casting : casting smaller primitive type to large primitive type
+          Byte - short - int - long - float - double
+
+          char - boolean
+
+         -Explicit primitive type casting : casting larger primitive type to smaller primitive type
+
+    2 Reference Type casting : there must be inheritance
+
+         -Upcasting:
+
+                    Casting the smaller reference type(sub type) to larger reference type (super type)
+
+                Animal animal1 = new Dog(); // upcasting
+                Cat cat = new Cat();
+
+                Animal animal2 = cat; // upcasting
+                ---------------------------
+                Phone phone1 = new Iphone(); // upcasting
+
+                Samsung samsung = new Samsung();
+
+                Phone phone2 = samsung; // upcasting
+
+
+         -Downcasting
+
+
+
+
+
+

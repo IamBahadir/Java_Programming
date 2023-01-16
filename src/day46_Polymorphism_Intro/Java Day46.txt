@@ -1,0 +1,34 @@
+Java Day46
+
+package name : day46_Polymorphism Intro
+
+Encapsulation - hiding the data
+Inheritance   - Building a relationship / we don't need to create common features one bye one
+
+Abstraction   - hiding the implementation data
+              - blueprint of a class / we don't need to create common method one by one
+    Interface - add more additional information if the class needed,
+                access modifier just assign Public
+                it contains three type of methods - default - static - abstract
+
+Polymorphism  - Many Forms
+
+              <--Polymorphism Rules-->
+
+                Reference type can be parent class or interface
+
+                Object type can be any extending or implementing child class
+
+                Reference type decides what is accessible
+
+                Object type decides which implementation of the method to be executed
+              when the method is called
+
+              <--Calling the method in polymorphism-->
+
+                Only the methods in reference type can be called
+
+                When we call a method, it will call overriden version from a child class
+              if method is not overridden, it will call parent/super class version
+
+
