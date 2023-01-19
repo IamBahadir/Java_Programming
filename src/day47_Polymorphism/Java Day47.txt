@@ -45,7 +45,7 @@ What is the meaning of the casting:
 
     2 Reference Type casting : there must be inheritance
 
-         -Upcasting:
+         -Upcasting:(Implicitly)
 
                     Casting the smaller reference type(sub type) to larger reference type (super type)
 
@@ -61,7 +61,66 @@ What is the meaning of the casting:
                 Phone phone2 = samsung; // upcasting
 
 
-         -Downcasting
+         -Downcasting: (Explicitly)
+
+                Animal animal = new Dog();
+
+                Dog dog = (Dog) animal // downcasting
+
+OOP : Object Oriented Programming
+
+     Advantages :
+                 improves re-usability
+                 easy to maintain
+                 less memory
+                 less code
+                 avoid duplication
+                 Flexible
+
+     1. Encapsulation - hiding the data by giving private access modifier
+
+                        getter (read)
+                        setter (write)
+
+     2. Inheritance   - Building "Is A" relationship (What kind of relationship it has - parent (sup) / child(sup) )
+
+                        child class  : inherits all the variable and methods ( that are visible )
+                        parent class : does not inherit anything form the child class
+
+                        object class : is the parent of all the class by default
+
+     3. Abstraction   - hiding the implementation details
+
+                        focus the essential
+
+                        abstract method :  method without the body meant to be overridden
+
+                        2 ways
+                                Abstract class : not concrete --> No objects
+                                                 meant to be parent
+
+                                                 class can extend one abstract class
+
+                                Interface      : Not a class, mean to e implemented
+                                                 used for providing additional methods that classes need
+
+                                                 100% Abstraction
+
+                                                 public is the Only access modifier
+
+                                                 class can implements as many as its need
+
+
+                                                 static,abstract,default
+
+
+     4. Polymorphism  - ability of the objects to take on many forms
+
+
+
+
+
+
 
 
 
