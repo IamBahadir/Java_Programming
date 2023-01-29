@@ -1,0 +1,63 @@
+Java Day 51
+
+Topic : Map
+        Enum
+
+Package Name : day51_Map
+
+
+Map(I) : pairs of collection
+         does not support primitives
+         size is dynamic
+         key Must be unique, value can be duplicated
+
+
+         HashMap (C)       : both key and value can be null
+                             Maintains the random order
+
+         LinkedHashMap (C) : both key and value can be null
+                             Maintains the insertion order
+
+         TreeMap (C)       : key can not be null but value can be null
+                             Maintains the sorted order
+
+         Hashtable         : both key and value can not be null
+                             Maintains the random order
+
+         Methods of Map :
+
+                         put(key, value)
+
+                         get(key)
+
+                         replace(key,newValue)
+
+                         remove(key)
+
+                         containsKey(key) -> boolean
+
+                         containsValue(value) -> boolean
+
+                         isEmpty() -> boolean
+
+                         equals(Map) -> boolean
+
+                         clear()
+
+                         --------------------
+
+                         keySet() -> returns all the keys
+
+                         values() -> returns all the values
+
+                         entrySet() -> returns all the entry
+
+                                getValue()
+                                getKey()
+                                setValue()
+                                setKey()
+
+
+
+
+

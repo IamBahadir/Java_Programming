@@ -1,0 +1,36 @@
+Java Day50
+
+Topics :
+        1. Collection continue - Iterable
+        2. Collection Review
+        3. Map Intro
+
+package name : Day50_Collections_Map
+
+
+    Collection (I) : dynamic sized
+                     ready methods
+                     for non-primitives Only
+
+                     extended by List Queue and Set
+
+               List (I)  : duplicates are allowed, has an index number
+                         ArrayLıst (C)  : searching or accessing elements are faster
+                         LinkedList (C) : inserting or deleting elements are faster
+                         Vector (C)     : is synchronized Thread-safe
+                         Stack (C)      : is synchronized Thread-safe, LIFO
+                                          pop() --> this is special just for Stack.
+
+               Set (I)   : duplicates are NOT allowed, does NOT have index number
+                         HashSet (C)      : Maintains random order
+                         LinkedHashSet (C): Maintains insertion order
+                         TreeSet (C)      : Maintains sorted order , does not accept null value
+
+               Queue (I) : duplicates are allowed, does NOT have index number, FIFO
+                           poll () --> this is special just for Queue.
+
+                           PriorityQueue (C) : Maintains random order
+                           ArrayDequeue (C)  : Maintains insertion order
+                           LinkedList (C)    : it has an index number, maintains insertion order
+
+
