@@ -1,0 +1,26 @@
+
+
+Collection is a group of individual objects
+
+    can hold different non-primitive data types
+    size is dynamic - can increase or decrease the size
+
+               Collection
+
+                  List
+
+    ArrayList  LinkedList  Vector
+
+                           Stack
+
+    ArrayList  - reach or access faster to the element
+    LinkedList - insert and delete faster
+    Vector     - internally uses array / is synchronized Thread.safety
+    Stack      - last in and first out order (LIFO)
+
+    Process - an instance of a program is running a computer
+    Thread  - Thread is a feature of the program that allows the user to
+              display, download, upload, or do any of those kinds of things at the same time.
+
+    Synchronized - Definition of the synchronized one thread being executed at the time
+                   in order to achieve Thread safety

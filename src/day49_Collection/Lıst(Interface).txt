@@ -1,0 +1,45 @@
+
+List - one of the child (interface) of the Collection (interface)
+
+What is special about the List :
+
+                it allows duplicated (1,1,2,3,3,3)
+                it has index number
+                insertion order preserved
+
+
+Each class has its own specialization.
+
+-ArrayList  :
+             it is the best option, if searching the element is the priority
+-LinkedList :
+             it is the best option, if inserting or deleting any element is priority
+-Vector     :
+             it is the best option, if the synchronizing is the priority
+
+             -Thread-
+
+             sequence of process ;
+             sequence : a particular order in which related events
+             process  : instance of execution for the program
+
+             Only one thread has an access the shared resource at a time (Thread-safety)
+
+
+             for example :
+                          if any user try to access their internet banking on mobile application or on a web browser at the same time,
+                          the user does not allow to reach both of them.
+                          Only one thread has one access the shared resource at a time.
+                          this is the synchronizing..
+
+
+    -Stack  :
+             What is the difference between the stack and vector ?
+
+             When it comes to the take out the inserted order one by one,
+             Stack is the best option.
+
+             LIFO (Last in & First out order )
+
+             Pop method is special just for stack
+

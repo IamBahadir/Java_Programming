@@ -1,0 +1,41 @@
+
+
+Set : this is the one of the child ( Interface )of Collection (Interface)
+
+What distinguishes this "set" from others?
+    - Duplicates are not allowed
+    - Insertion order not preserved
+    - Does not have an index
+
+
+                Collection (Interface)
+                    Set (Interface)
+    HashSet (Class)          SortedSet (Interface)
+    LınkedHashSet (Class)    TreeSet (Class)
+
+
+What distinguishes the HashSet (Class) from others?
+
+    * When it comes to the Set, Most of the time will use the HashSet.
+
+    - Implement the Set interface
+    - Maintains the random order ( that makes it faster )
+      10, 20, 30, 40, 50 --> { 20, 10, 50, 40, 30 }
+
+    - Accept null values
+
+What distinguishes the LınkedHashSet (Class) from others?
+
+    - Maintains the insertion oder
+      20, 50, 40, 30, 50  --> {20, 50, 40, 30, 50}
+
+    - Accept null values
+
+
+What distinguishes the TreeSet (Class) from others?
+
+    - Implement the SortedSet interface
+    - Maintains the sorted order
+      20, 10, 50, 40  --> 10, 20, 40, 50
+    - Does not accept null values
+
