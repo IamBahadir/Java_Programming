@@ -55,7 +55,6 @@ Map(I) : pairs of collection
                                 getValue()
                                 getKey()
                                 setValue()
-                                setKey()
 
 
 
